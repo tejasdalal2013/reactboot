@@ -6,7 +6,10 @@ const App =() =>{
 
   useEffect(()=>{
     alert("I Am Clicked") 
-  },[num])
+  },[])
+  useEffect(()=>{
+    alert("I Am Clicked Again") 
+  })
     
   return(
     <>
